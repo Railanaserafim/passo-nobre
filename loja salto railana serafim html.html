@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <base href="www.passonobre.com.br">
+
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title></title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="">
+        </head>
+        <body></body>
+            
+            <script src="" async defer></script>
+        </body>
+    </html>"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo Nobre - Loja de Saltos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação Semântica -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>PASSO NOBRE</h1>
+                <p class="tagline">Elegância e conforto a cada passo</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#colecao">Coleção</a></li>
+                    <li><a href="#tamanhos">Guia de Tamanhos</a></li>
+                    <li><a href="#reserva">Reservar Modelo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Secção 1: Diferenciais (Lista) -->
+        <section id="diferenciais" class="card">
+            <h2>Porquê Escolher a Passo Nobre?</h2>
+            <ul class="lista-diferenciais">
+                <li>Palmilhas <em>confort em gel</em> integradas em todos os modelos.</li>
+                <li>Garantia de troca grátis até 30 dias após a compra.</li>
+                <li>Modelos exclusivos com acabamento em verniz e napa premium.</li>
+                <li>Envio rápido e seguro com rastreamento em tempo real.</li>
+            </ul>
+        </section>
+
+        <!-- Secção 2: Coleção em Destaque -->
+        <section id="colecao" class="card">
+            <h2>Nossa Coleção em Destaque</h2>
+            <div class="produtos-grid">
+                <article class="produto-card">
+                    <h3>Scarpin Clássico Verniz</h3>
+                    <p class="detalhe-salto">Salto Fino Stiletto (9 cm)</p>
+                    <p class="descricao">Ideal para eventos formais e ocasiões especiais.</p>
+                    <p class="preco">R$ 79,90</p>
+                    <a href="#reserva" class="btn">Reservar Agora</a>
+                </article>
+
+                <article class="produto-card">
+                    <h3>Sandália Salto Bloco Rose</h3>
+                    <p class="detalhe-salto">Salto Bloco Confort (6 cm)</p>
+                    <p class="descricao">Perfeita para o dia a dia com máxima estabilidade.</p>
+                    <p class="preco">R$ 89,90</p>
+                    <a href="#reserva" class="btn">Reservar Agora</a>
+                </article>
+
+                <article class="produto-card">
+                    <h3>Mule Elegance Napa</h3>
+                    <p class="detalhe-salto">Salto Médio Taça (5 cm)</p>
+                    <p class="descricao">Design moderno e prático para compor visuais elegantes.</p>
+                    <p class="preco">R$ 69,90</p>
+                    <a href="#reserva" class="btn">Reservar Agora</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Secção 3: Guia de Tamanhos (Tabela) -->
+        <section id="tamanhos" class="card">
+            <h2>Guia de Tamanhos</h2>
+            <p>Confira a medida do seu pé para escolher o número ideal:</p>
+            <div class="tabela-wrapper">
+                <table class="tabela-tamanhos">
+                    <thead>
+                        <tr>
+                            <th>Tamanho BR</th>
+                            <th>Comprimento do Pé (cm)</th>
+                            <th>Disponibilidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>34</td>
+                            <td>22,5 cm</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>35</td>
+                            <td>23,0 cm</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>36</td>
+                            <td>24,0 cm</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>37</td>
+                            <td>24,5 cm</td>
+                            <td>Poucas Unidades</td>
+                        </tr>
+                        <tr>
+                            <td>38</td>
+                            <td>25,5 cm</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>39</td>
+                            <td>26,0 cm</td>
+                            <td>Sob Consulta</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Secção 4: Formulário de Reserva -->
+        <section id="reserva" class="card">
+            <h2>Reservar Modelo</h2>
+            <p>Preencha os seus dados para garantir a reserva do seu par exclusivo:</p>
+            
+            <form action="#" method="POST" class="form-reserva">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Introduza o seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail de Contato:</label>
+                    <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="modelo">Modelo Desejado:</label>
+                    <select id="modelo" name="modelo" required>
+                        <option value="">-- Selecione o Modelo --</option>
+                        <option value="scarpin">Scarpin Clássico Verniz (R$ 79,90)</option>
+                        <option value="sandalia">Sandália Salto Bloco Rose (R$ 89,90)</option>
+                        <option value="mule">Mule Elegance Napa (R$ 69,90)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="tamanho">Tamanho do Calçado:</label>
+                    <select id="tamanho" name="tamanho" required>
+                        <option value="">-- Selecione o Tamanho --</option>
+                        <option value="34">34 (22,5 cm)</option>
+                        <option value="35">35 (23,0 cm)</option>
+                        <option value="36">36 (24,0 cm)</option>
+                        <option value="37">37 (24,5 cm)</option>
+                        <option value="38">38 (25,5 cm)</option>
+                        <option value="39">39 (26,0 cm)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Observações ou Pedidos Especiais:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Alguma preferência de entrega ou dúvida?"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Confirmar Reserva</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé Semântico -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Passo Nobre - Loja de Saltos. Todos os direitos reservados.</p>
+            <p>Desenvolvimento Web - Entrega 1</p>
+        </div>
+    </footer>
+
+</body>
+</html>
